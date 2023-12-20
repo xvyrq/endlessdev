@@ -44,4 +44,33 @@
     border-radius: 10px;
     transition: 0.3s all;
   }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
   
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: blanchedalmond;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .navbar-nav.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
