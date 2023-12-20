@@ -1,0 +1,47 @@
+.navbar {
+    /* From https://css.glass */
+    background: rgba(133, 88, 252, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(133, 88, 252, 0.24);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+  }
+  
+.endlessLogoNav {
+    height: 1em;
+    margin-left: 0;
+}
+  .navbar-brand {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    background-color: #001eff;
+    box-shadow: 0 0 1px 4px #001eff, 0 0 20px 10px #001eff;
+    border-radius: 10px;
+    transition: 0.3s all;
+  }
+  

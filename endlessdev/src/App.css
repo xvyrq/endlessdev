@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Ubuntu&family=Work+Sans&display=swap');
+
+body {
+  text-align: center;
+  background-color: rgb(16, 7, 40);
+  color: blanchedalmond;
+  font-family: 'Kalnia', serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+}

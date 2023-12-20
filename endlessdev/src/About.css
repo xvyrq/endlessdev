@@ -1,0 +1,26 @@
+/* Styles for the About Component */
+.about {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Centering the container */
+    padding: 20px;
+    text-align: center; /* Centering the text */
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+}
+
+.about h2 {
+    color: blanchedalmond;/* Title color */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.about p {
+    color: blanchedalmond; /* Paragraph text color */
+    line-height: 1.6; /* Line height for readability */
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Centering icons horizontally */
+    gap: 20px; /* Space between icons */
+    margin-bottom: 20px; /* Space below the icons */
+}
